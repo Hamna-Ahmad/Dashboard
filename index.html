@@ -2,6 +2,7 @@
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
         <title>Personal Dashboard</title>
     </head>
     <body>
@@ -12,9 +13,17 @@
                 </div>
                 <div id="weather"></div>
             </div>
-            
+
             <h1 id="time" class="time"></h1>
+            
             <p id="author"></p>
+
+            <div id="notes">
+                <textarea id="notes-input" placeholder="Enter your notes here"></textarea>
+                <button id="add-note-btn">Add Note</button>
+                <ul id="notes-list"></ul>
+            </div>
+
         </main>
         <script src="index.js"></script>
     </body>
