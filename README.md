@@ -1,6 +1,6 @@
 # Personal Dashboard Desktop App
 
-This is a simple desktop app built using JavaScript that displays a personal dashboard with various information such as the current time, weather, a random nature background image, and cryptocurrency data.
+This is a simple desktop app built using JavaScript that displays a personal dashboard with various information such as the current time, weather, a random nature background image, cryptocurrency data, and a notes feature.
 
 ## Features
 The app includes the following features:
@@ -9,6 +9,7 @@ The app includes the following features:
 - Fetches and displays the weather information based on the user's current location.
 - Fetches a random nature background image and sets it as the app's background.
 - Fetches and displays cryptocurrency data for Dogecoin.
+- Allows users to create and save personal notes.
 - Customizable new tab page with a Chrome extension.
 
 ## Prerequisites
@@ -30,6 +31,7 @@ The app will automatically fetch the required data and update the dashboard with
 - Weather: The app fetches the weather information based on your current location and displays the temperature, weather icon, and city name.
 - Background image: The app fetches a random nature background image and sets it as the app's background.
 - Cryptocurrency data: The app fetches the latest data for Dogecoin and displays the current price, highest price in the last 24 hours, and lowest price in the last 24 hours.
+- Notes: The app allows you to create and save personal notes. You can add, edit, and delete notes to keep track of important information.
 
 
 ## Customization
